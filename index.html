@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilo.css">
+    <title>Survey page</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="fname">Nombres:</label><br>
+        <input type="text" id="name" name="name" value="Ingresa tu nombre"><br>
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname" value="Ingresa tu apellido"><br><br>
+        <label for="lname">Correo electrónico:</label><br>
+        <input type="text" id="email" name="email" value="example@dominio.com"><br><br>
+        <label for="lname">Ocupación:</label><br>
+        <select id="dropdown" name="ocupacion">
+            <option value="estudiante">Estudiante</option>
+            <option value="independiente">Independiente</option>
+            <option value="trabajador">Trabajo tiempo completo</option>
+            <option value="desempleado">Desempleado</option>
+          </select>
+        <label for="number-label">Número Móvil:</label><br>
+        <input type="text" id="number-label" name="number-label" value="Ingresa tu número móvil"><br>
+        
+        <label for="lname">¿Algún comentario o sugerencia?</label><br>
+        <input type="textarea" id="comentario" rows="4"><br><br>
+
+        <label for="lname">Acepta el tratamiento de sus datos personales: *</label><br>
+        <input type="checkbox" id="Acepto">Acepto<br><br>
+        <input type="checkbox" id="No Acepto">No Acepto<br><br>
+        <input type="submit" value="Submit">
+        
+      </form>
+</body>
+</html>

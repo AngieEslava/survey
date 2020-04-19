@@ -1,0 +1,44 @@
+body {
+    padding-top: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 5px;
+    border: 10px;
+    font-family: monospace;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+label {
+    width: 100%;
+    padding: 12px 20px 50px 20px ;
+    margin: 8px 0;
+    font-family: fantasy;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(80, 104, 81);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+input[type=textarea] {
+    width: 100%;
+    padding: 12px 20px 20px 20px;
+    margin: 8px 0;
+    box-sizing: unset;
+    opacity: 0.5;
+}
